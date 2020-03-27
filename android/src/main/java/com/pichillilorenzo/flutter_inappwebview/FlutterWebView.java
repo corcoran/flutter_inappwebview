@@ -390,6 +390,8 @@ public class FlutterWebView implements PlatformView, MethodCallHandler  {
         }
       });
       webView.loadUrl("about:blank");
+      webView.dispose();
+      webView.destroy();
     }
   }
 
